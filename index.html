@@ -86,10 +86,13 @@
 
             </nav>
         </div>
+    </header>
 
-        <!-- Banner Part -->
+    <!-- Header end -->
 
-        <section>
+    <!-- Banner Part -->
+
+    <section>
         <div id="carouselExampleDark" class=" container carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner rounded-3">
                 <div class="carousel-item active background-custom-css" data-bs-interval="10000">
@@ -134,17 +137,14 @@
             </button>
         </div>
     </section>
-    </header>
-
-    <!-- Header end -->
 
 
     <!-- Main start -->
-    <main>
+    <main class="container">
 
         <!-- Popular Courses -->
 
-        <section class="container mt-5 pt-5">
+        <section class="mt-5 pt-5">
 
             <div class="text-center">
                 <h1 class="fw-bold display-6">Discover Our Popular <br>Courses</h1>
@@ -154,7 +154,7 @@
 
 
             <!-- Courses articles -->
-            <div class="row row-cols-lg-2 gx-5 gy-3 container mt-5 pt-4">
+            <div class="row row-cols-lg-2 gx-5 gy-3  mt-5 pt-4">
 
                 <!-- Course-1 -->
                 <article>
@@ -294,32 +294,77 @@
 
         <!-- Explore The elearning start -->
 
-        <section class="container d-flex p-5 mt-5">
+        <section class="d-flex p-5 mt-5">
             <div class="w-50 ">
                 <img class="w-100" src="images/working.png">
-              </div>
-              <div class="w-50 d-flex align-items-center">
+            </div>
+            <div class="w-50 d-flex align-items-center">
                 <div class="ms-5">
-                    <h1 class="fw-bold display-6" >Explore The elearning Institute</h1>
-                    <p  class="fw-light">E-Learning consist of teaching can be based in or out of the Classrooms, the use of computers and the Internet. <br><br> E-learning definition is defined as providing Training and development to the Students/Employees through various Electronic media such as the Internet, audio, video etc.</p>
+                    <h1 class="fw-bold display-6">Explore The elearning Institute</h1>
+                    <p class="fw-light">E-Learning consist of teaching can be based in or out of the Classrooms, the use
+                        of computers and the Internet. <br><br> E-learning definition is defined as providing Training
+                        and development to the Students/Employees through various Electronic media such as the Internet,
+                        audio, video etc.</p>
                     <div class="d-flex justify-content-between">
-                      <div>
-                        <h2 class="fw-bold">3.2K+</h2> 
-                        <p class="fw-lighter">Online Course</p>
-                      </div>
-                      <div>
-                        <h2  class="fw-bold">600+</h2> 
-                        <p class="fw-lighter">Expert member</p>
-                      </div>
-                      <div>
-                        <h2  class="fw-bold">1k+</h2> 
-                        <p class="fw-lighter">Rating & Review</p>
-                      </div>
+                        <div>
+                            <h2 class="fw-bold">3.2K+</h2>
+                            <p class="fw-lighter">Online Course</p>
+                        </div>
+                        <div>
+                            <h2 class="fw-bold">600+</h2>
+                            <p class="fw-lighter">Expert member</p>
+                        </div>
+                        <div>
+                            <h2 class="fw-bold">1k+</h2>
+                            <p class="fw-lighter">Rating & Review</p>
+                        </div>
                     </div>
                     <button class="btn btn-primary mt-3 ps-4 pe-4">Read More</button>
                 </div>
-              </div>
+            </div>
         </section>
+
+        <!-- Ready to join -->
+
+        <section class=" bg-primary mt-5 mb-5 p-5 rounded-3">
+            <div class="d-sm-flex justify-content-around p-5 align-items-center">
+                <div class="text-white">
+                    <h2 class="fw-bold">Ready to join?</h2>
+                    <br>
+                    <p class="fw-light">It is a long established fact that a reader will be distracted by the <br>
+                        readable content of a page when looking at its layout.</p>
+                </div>
+                <div>
+                    <button type="button" class="btn text-primary bg-white pt-2 pb-2 pe-5 ps-5" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Register Now</button>
+
+                    <!-- Trigger Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Welcome to Edu Tech...</h5>
+                                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    If you thinking to join,then Register now.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
