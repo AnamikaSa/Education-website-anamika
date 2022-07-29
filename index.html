@@ -24,6 +24,11 @@
 
         .background-custom-css {
             background-image: linear-gradient(black, black);
+            min-height: 60vh;
+        }
+
+        .banner-img {
+            object-fit: cover;
         }
 
         .button-reg {
@@ -35,7 +40,7 @@
         }
 
         .see-more-btn {
-            margin-left: 45%;
+            margin-left: 36vw;
         }
     </style>
 </head>
@@ -97,7 +102,8 @@
         <div id="carouselExampleDark" class=" container carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner rounded-3">
                 <div class="carousel-item active background-custom-css" data-bs-interval="10000">
-                    <img src="images/cover/cover-1.png" class="d-block w-100 h-100 opacity-50">
+                    <img src="images/cover/cover-1.png"
+                        class=" banner-img background-custom-css w-100 h-100 opacity-50">
                     <div class="carousel-caption  text-white mb-5 pb-5">
                         <h1 class="fw-bold display-3">Get Started Digital <br>Learning</h1>
                         <p class="fw-light">It is a long established fact that a reader will be distracted by the
@@ -107,8 +113,8 @@
                 </div>
 
                 <div class="carousel-item background-custom-css" data-bs-interval="3000">
-                    <img src="images/cover/cover-3.jpg" class="d-block w-100 h-100 opacity-50">
-                    <div class="carousel-caption d-none d-md-block text-white mb-5 pb-5">
+                    <img src="images/cover/cover-3.jpg" class="banner-img background-custom-css w-100 h-100 opacity-50">
+                    <div class="carousel-caption text-white mb-5 pb-5">
                         <h1 class="fw-bold display-3">Get Started Digital <br>Learning</h1>
                         <p class="fw-light">It is a long established fact that a reader will be distracted by the
                             readable <br>content of a page when looking at its layout.</p>
@@ -117,8 +123,8 @@
                 </div>
 
                 <div class="carousel-item background-custom-css">
-                    <img src="images/cover/cover-2.jpg" class="d-block w-100 h-100 opacity-50">
-                    <div class="carousel-caption d-none d-md-block text-white mb-5 pb-5 ">
+                    <img src="images/cover/cover-2.jpg" class="banner-img background-custom-css w-100 h-100 opacity-50">
+                    <div class="carousel-caption text-white mb-5 pb-5 ">
                         <h1 class="fw-bold display-3">Get Started Digital <br>Learning</h1>
                         <p class="fw-light">It is a long established fact that a reader will be distracted by the
                             readable <br>content of a page when looking at its layout.</p>
@@ -155,137 +161,120 @@
 
 
             <!-- Courses articles -->
-            <div class="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 gx-5 gy-3  mt-5 pt-4">
 
-                <!-- Course-1 -->
-                <article>
-                    <div class="card border-0" style="width: 580px;">
-                        <div class="row g-0">
-                            <div class="col">
-                                <img src="images/course/course-1.png" class="img-fluid rounded-start">
-                            </div>
-
-                            <div class="col mt-3 me-5">
-                                <div class="card-body">
-                                    <h6 class="card-title fw-bold">Fundamental Of UI/US Design</h6>
-                                    <p class="card-text fw-light"> <small>Some quick example text to build on the card
-                                            title
-                                            and make up the bulk of the card</small></p>
-                                    <span class="text-info">Price : 20$</span>
-                                </div>
+            <div class="row row-cols-lg-2 g-3 ">
+                <div class=" card mt-5 border-0" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4 col-sm-12">
+                            <img src="images/course/course-1.png" class="img-fluid w-100 rounded-start">
+                        </div>
+                        <div class="col">
+                            <div class="card-body ps-5">
+                                <h5 class="card-title fw-bold">
+                                    Fundamental Of UI/US Design</h5>
+                                <p class="card-text fw-light">Some quick example text to build on the card title and
+                                    make up the bulk of the card.
+                                </p>
+                                <p class="card-text text-info">Price : 20$</p>
                             </div>
                         </div>
                     </div>
-                </article>
+                </div>
 
-                <!-- Courese-2 -->
-                <article>
-                    <div class="card border-0 " style="width: 580px;">
-                        <div class="row g-0 ">
-                            <div class="col">
-                                <img src="images/course/course-2.png" class="img-fluid rounded-start">
-                            </div>
 
-                            <div class="col mt-3 me-5">
-                                <div class="card-body">
-                                    <h6 class="card-title fw-bold">Javascript Basic to advanced
-                                    </h6>
-                                    <p class="card-text fw-light"> <small>Some quick example text to build on the card
-                                            title
-                                            and make up the bulk of the card</small></p>
-                                    <span class="text-info">Price : 20$</span>
-                                </div>
+                <div class="card mt-5 border-0" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/course/course-2.png" class="img-fluid w-100 rounded-start">
+                        </div>
+                        <div class="col">
+                            <div class="card-body ps-5">
+                                <h5 class="card-title fw-bold">Javascript Basic to advanced
+                                </h5>
+                                <p class="card-text fw-light">Some quick example text to build on the card title and
+                                    make up the bulk of the card.
+                                </p>
+                                <p class="card-text text-info">Price : 20$</p>
                             </div>
                         </div>
                     </div>
-                </article>
+                </div>
 
-                <!-- Courese-3 -->
-                <article>
-                    <div class="card border-0" style="width: 580px;">
-                        <div class="row g-0 ">
-                            <div class="col">
-                                <img src="images/course/course-3.png" class="img-fluid rounded-start">
-                            </div>
-                            <div class="col mt-3 me-5">
-                                <div class="card-body">
-                                    <h6 class="card-title fw-bold">Fullstack Web Development
-                                    </h6>
-                                    <p class="card-text fw-light"> <small>Some quick example text to build on the card
-                                            title
-                                            and make up the bulk of the card</small></p>
-                                    <span class="text-info">Price : 20$</span>
-                                </div>
+
+                <div class="card border-0" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/course/course-3.png" class="img-fluid w-100 rounded-start">
+                        </div>
+                        <div class="col">
+                            <div class="card-body ps-5">
+                                <h5 class="card-title fw-bold">
+                                    Fullstack Web Development</h5>
+                                <p class="card-text fw-light">Some quick example text to build on the card title and
+                                    make up the bulk of the card.
+                                </p>
+                                <p class="card-text text-info">Price : 20$</p>
                             </div>
                         </div>
                     </div>
-                </article>
+                </div>
 
-                <!-- Courese-4 -->
-                <article>
-                    <div class="card border-0" style="width: 580px;">
-                        <div class="row g-0 ">
-                            <div class="col">
-                                <img src="images/course/course-4.png" class="img-fluid rounded-start">
-                            </div>
 
-                            <div class="col mt-3 me-5">
-                                <div class="card-body">
-                                    <h6 class="card-title fw-bold">Digital Marketing
-                                    </h6>
-                                    <p class="card-text fw-light"> <small>Some quick example text to build on the card
-                                            title
-                                            and make up the bulk of the card</small></p>
-                                    <span class="text-info">Price : 20$</span>
-                                </div>
+                <div class="card border-0" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/course/course-4.png" class="img-fluid w-100 rounded-start">
+                        </div>
+                        <div class="col">
+                            <div class="card-body ps-5">
+                                <h5 class="card-title fw-bold">
+                                    Digital Marketing</h5>
+                                <p class="card-text fw-light">Some quick example text to build on the card title and
+                                    make up the bulk of the card.
+                                </p>
+                                <p class="card-text text-info">Price : 20$</p>
                             </div>
                         </div>
                     </div>
-                </article>
+                </div>
 
-                <!-- Courese-5 -->
-                <article>
-                    <div class="card border-0" style="width: 580px;">
-                        <div class="row g-0 ">
-                            <div class="col">
-                                <img src="images/course/course-5.png" class="img-fluid rounded-start">
-                            </div>
 
-                            <div class="col mt-3 me-5">
-                                <div class="card-body">
-                                    <h6 class="card-title fw-bold">Photography Basic Rules
-                                    </h6>
-                                    <p class="card-text fw-light"> <small>Some quick example text to build on the card
-                                            title
-                                            and make up the bulk of the card</small></p>
-                                    <span class="text-info">Price : 20$</span>
-                                </div>
+                <div class="card border-0" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/course/course-5.png" class="img-fluid w-100 rounded-start">
+                        </div>
+                        <div class="col">
+                            <div class="card-body ps-5">
+                                <h5 class="card-title fw-bold">
+                                    Photography Basic Rules</h5>
+                                <p class="card-text fw-light">Some quick example text to build on the card title and
+                                    make up the bulk of the card.
+                                </p>
+                                <p class="card-text text-info">Price : 20$</p>
                             </div>
                         </div>
                     </div>
-                </article>
+                </div>
 
-                <!-- Courese-6 -->
-                <article>
-                    <div class="card border-0" style="width: 580px;">
-                        <div class="row g-0 ">
-                            <div class="col">
-                                <img src="images/course/course-6.png" class="img-fluid rounded-start">
-                            </div>
 
-                            <div class="col mt-3 me-5">
-                                <div class="card-body">
-                                    <h6 class="card-title fw-bold">Motion Graphics
-                                    </h6>
-                                    <p class="card-text fw-light"> <small>Some quick example text to build on the card
-                                            title
-                                            and make up the bulk of the card</small></p>
-                                    <span class="text-info">Price : 20$</span>
-                                </div>
+                <div class=" border-0" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/course/course-6.png" class="img-fluid w-100 rounded-start">
+                        </div>
+                        <div class="col">
+                            <div class="card-body ps-5">
+                                <h5 class="card-title fw-bold">
+                                    Motion Graphics</h5>
+                                <p class="card-text fw-light">Some quick example text to build on the card title and
+                                    make up the bulk of the card.
+                                </p>
+                                <p class="card-text text-info">Price : 20$</p>
                             </div>
                         </div>
                     </div>
-                </article>
+                </div>
             </div>
 
             <div class="mt-4 p-4">
@@ -295,7 +284,7 @@
 
         <!-- Explore The elearning start -->
 
-        <section class="d-flex p-5 mt-5">
+        <section class="d-flex d-grid p-5 mt-5">
             <div class="w-50 ">
                 <img class="w-100" src="images/working.png">
             </div>
@@ -402,7 +391,7 @@
                 </div>
             </div>
             <div class="mt-4 p-4">
-                <button class="btn btn-primary see-more-btn ps-4 pe-4 rounded-3"> View All</button>
+                <button class="btn btn-primary see-more-btn ps-5 pe-5 rounded-3"> View All</button>
             </div>
         </section>
 
@@ -520,7 +509,7 @@
 
     <!-- Footer Part Start -->
 
-    <footer class="text-center bg-dark text-white p-5 mt-5 align-items-center" >
+    <footer class="text-center bg-dark text-white p-5 mt-5 align-items-center">
         <br>
         <h3 class="fw-bold">Edu Tech</h3>
         <p class="fw-light text-info">
@@ -528,15 +517,15 @@
             Sultanate of Oman
         </p>
         <a class="text-decoration-none text-white fw-light" href="#"><small>Privacy Ploicy | Terms of use</small></a>
-        <div class="mt-3" >
+        <div class="mt-3">
             <a href="#"><i class="fa-brands fa-facebook pe-3" style="color: white;"></i></a>
-            <a href="#" ><i class="fa-brands fa-twitter pe-3" style="color: white;"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter pe-3" style="color: white;"></i></a>
             <a href="#"><i class="fa-brands fa-instagram pe-3" style="color: white;"></i></a>
             <a href="#"><i class="fa-brands fa-tiktok" style="color: white;"></i></a>
         </div>
     </footer>
 
-<!-- Footer end -->
+    <!-- Footer end -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
