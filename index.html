@@ -42,6 +42,32 @@
         .see-more-btn {
             margin-left: 36vw;
         }
+
+        /* Phone */
+        @media only screen and (max-width: 688px) {
+            .elearning-img {
+                width: 470px !important;
+                /* margin-left: 0; */
+                /* height: 50vh; */
+            }
+
+            .elearning-writing-section {
+                width: 110% !important;
+                margin-top: 40px;
+            }
+        }
+
+        /* Tab */
+        @media (min-width: 680px) and (max-width:990px) {
+            .elearning-img {
+                width: 400px !important;
+            }
+
+            .elearning-writing-section {
+                width: 100%;
+                margin-left: 40px;
+            }
+        }
     </style>
 </head>
 
@@ -258,23 +284,24 @@
                 </div>
 
 
-                <div class=" border-0" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="images/course/course-6.png" class="img-fluid w-100 rounded-start">
-                        </div>
-                        <div class="col">
-                            <div class="card-body ps-5">
-                                <h5 class="card-title fw-bold">
-                                    Motion Graphics</h5>
-                                <p class="card-text fw-light">Some quick example text to build on the card title and
-                                    make up the bulk of the card.
-                                </p>
-                                <p class="card-text text-info">Price : 20$</p>
-                            </div>
+                <div class="card border-0" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images/course/course-6.png" class="img-fluid w-100 rounded-start">
+                    </div>
+                    <div class="col">
+                        <div class="card-body ps-5">
+                            <h5 class="card-title fw-bold">
+                                Motion Graphics</h5>
+                            <p class="card-text fw-light">Some quick example text to build on the card title and
+                                make up the bulk of the card.
+                            </p>
+                            <p class="card-text text-info">Price : 20$</p>
                         </div>
                     </div>
                 </div>
+            </div>
+            
             </div>
 
             <div class="mt-4 p-4">
@@ -284,12 +311,12 @@
 
         <!-- Explore The elearning start -->
 
-        <section class="d-flex d-grid p-5 mt-5">
-            <div class="w-50 ">
-                <img class="w-100" src="images/working.png">
+        <section class="d-md-flex align-items-center pt-5 pe-5 pb-5 mt-4">
+            <div class=" w-75">
+                <img class="w-100 elearning-img " src="images/working.png">
             </div>
-            <div class="w-50 d-flex align-items-center">
-                <div class="ms-5">
+            <div class="d-flex align-items-center elearning-writing-section">
+                <div class="ps-lg-5 ms-2 w-100">
                     <h1 class="fw-bold display-6">Explore The elearning Institute</h1>
                     <p class="fw-light">E-Learning consist of teaching can be based in or out of the Classrooms, the use
                         of computers and the Internet. <br><br> E-learning definition is defined as providing Training
